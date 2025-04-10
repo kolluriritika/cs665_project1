@@ -1,6 +1,11 @@
 # 📚 Library Management System
 
-A simple GUI-based application using **Python**, **MySQL**, and **Tkinter** to manage books, authors, and members.
+## 👩‍💻 Project Overview
+
+This is a GUI-based Library Management System built using **Python (Tkinter)** and **MySQL**. It allows users to:
+- Add, view, and delete books
+- Perform JOIN operations between tables
+- See a structured Treeview of book data
 
 ## 🔧 Features
 
@@ -8,12 +13,25 @@ A simple GUI-based application using **Python**, **MySQL**, and **Tkinter** to m
 - Predefined SQL JOIN: List Books with Author Names
 - GUI built with Tkinter
 - Database initialized with `create.sql` and `insert.sql`
+- Delete a book with a confirmation popup
+- Scrollable book list for easier navigation
 
 ## 🛠️ Tech Stack
 
-- Python 3.12
-- MySQL
-- Tkinter
+- Python 3
+- Tkinter(GUI)
+- MySQL(Database)
+- MySQL Connector for Python
+- GitHub(Version control)
+
+## 🗃️ Database Description
+
+The backend uses a **MySQL relational database** named `library_db`. It contains the following tables:
+1. **Authors** – Author details like name, country, and birth year
+2. **Books** – Book info including title, genre, author, and ISBN
+3. **Members** – Library users
+4. **BorrowingHistory** – Tracks borrowing activity
+5. 
 
 ## 🚀 Getting Started
 
