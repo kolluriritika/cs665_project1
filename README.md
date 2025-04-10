@@ -31,7 +31,6 @@ The backend uses a **MySQL relational database** named `library_db`. It contains
 2. **Books** – Book info including title, genre, author, and ISBN
 3. **Members** – Library users
 4. **BorrowingHistory** – Tracks borrowing activity
-5. 
 
 ## 🚀 Getting Started
 
